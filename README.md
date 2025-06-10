@@ -87,3 +87,23 @@ Create Azure resources via Bicep scripts, ensuring cost-efficiency:
 ---
 
 Follow this README to initiate project development clearly and efficiently.
+
+## Repository Structure
+
+```
+backend/   # FastAPI application
+frontend/  # React client
+infra/     # Azure Bicep scripts
+```
+
+### Development
+
+```bash
+# start backend
+cd backend
+uvicorn main:app --reload
+
+# start frontend
+cd ../frontend
+npm run dev
+```
